@@ -1,4 +1,4 @@
-package demos;
+package JavaDemos;
 import processing.core.*;
 
 /**
@@ -16,7 +16,7 @@ public class ProcessingCheck extends PApplet {
 		// Uncommenting "--present" will let the applet run in full screen
 		// The form of the second string should be: thisPackageName.thisClassName
         // (if the file is in any package other than the default)
-		PApplet.main(new String[] { /*"--present",*/ "demos.ProcessingCheck" });
+		PApplet.main(new String[] { /*"--present",*/ "JavaDemos.ProcessingCheck" });
 
 	}
 

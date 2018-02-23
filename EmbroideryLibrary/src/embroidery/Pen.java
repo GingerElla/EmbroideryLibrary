@@ -1,4 +1,4 @@
-package library;
+package embroidery;
 import processing.core.*;
 
 // +------------------+----------------------------------------------

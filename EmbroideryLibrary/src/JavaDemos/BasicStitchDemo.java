@@ -1,7 +1,7 @@
-package demos;
+package JavaDemos;
 
 import processing.core.*;
-import library.*;
+import embroidery.*;
 
 public class BasicStitchDemo extends PApplet {
     // Declare your Pattern and Pen here
@@ -10,7 +10,7 @@ public class BasicStitchDemo extends PApplet {
 
     // The name of the file does here
     public static void main(String[] args) {
-        PApplet.main("demos.BasicStitchDemo");
+        PApplet.main("JavaDemos.BasicStitchDemo");
     }
 
     // Size of the canvas goes here, it's important to note that the size of
@@ -64,6 +64,6 @@ public class BasicStitchDemo extends PApplet {
         // saveBytes()--so it will create the file if it is not present, but it will
         // crudely overwrite that file every time you call it, which might get
         // you some interesting errors.
-        design.saveDST(design, "BasicStitchDemo.dst");
+        design.saveDST(design, "EmbroideryLibrary/src/JavaDemos/dsts/BasicStitchDemo.dst");
     }
 }

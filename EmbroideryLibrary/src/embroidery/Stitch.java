@@ -1,5 +1,4 @@
-package library;
-import processing.core.*;
+package embroidery;
 
 /**
  * The object Stitch

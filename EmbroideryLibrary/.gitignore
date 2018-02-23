@@ -10,3 +10,6 @@ out/
 .classpath
 .project
 .settings/
+
+# ProcessingStitch
+.dst

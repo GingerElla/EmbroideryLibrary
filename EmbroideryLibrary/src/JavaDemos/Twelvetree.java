@@ -1,7 +1,7 @@
-package demos;
+package JavaDemos;
 
 import processing.core.*;
-import library.*;
+import embroidery.*;
 
 // +---------------------------+------------------------------------
 // | Example Code (twelvetree) |
@@ -28,7 +28,7 @@ public class Twelvetree extends PApplet {
 	Pen needle2 = new Pen(this, 250, 0, design2);
 
 	public static void main(String[] args) {
-		PApplet.main("demos.twelvetree");
+		PApplet.main("JavaDemos.Twelvetree");
 	}
 
 	public void settings() {
@@ -58,10 +58,10 @@ public class Twelvetree extends PApplet {
 			}
 		} else if (this.key == ' '){
 		    if (design.size > 0) {
-		        design.saveDST(design, "twelvetreePS.dst");
+		        design.saveDST(design, "EmbroideryLibrary/src/JavaDemos/dsts/twelvetreePS.dst");
             }
             if (design2.size > 0) {
-		        design.saveDST(design2, "twelvetreePS2.dst");
+		        design.saveDST(design2, "EmbroideryLibrary/src/JavaDemos/dsts/twelvetreePS2.dst");
             }
             this.key = 'a'; // arbitrary key so that we don't save multiple times
         } else if (this.key == 'q') {

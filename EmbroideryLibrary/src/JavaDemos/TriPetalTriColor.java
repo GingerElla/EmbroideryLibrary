@@ -1,7 +1,7 @@
-package demos;
+package JavaDemos;
 
 import processing.core.*;
-import library.*;
+import embroidery.*;
 
 // +----------------------------------+----------------------------------------
 // | Example Code (tripetal-tricolor) |
@@ -19,7 +19,7 @@ public class TriPetalTriColor extends PApplet {
 
 	// The name of the file does here
 	public static void main(String[] args) {
-		PApplet.main("demos.TriPetalTriColor");
+		PApplet.main("JavaDemos.TriPetalTriColor");
 	}
 
 	// Size of the canvas goes here, it's important to note that the size of
@@ -83,7 +83,7 @@ public class TriPetalTriColor extends PApplet {
         // you are SURE this is the design you want to stitch.
         // Alternatively, do you own file management to ensure that
         // the file indicated by this string is empty.
-		design.saveDST(design, "tripetal-tricolor.dst");
+		design.saveDST(design, "EmbroideryLibrary/src/JavaDemos/dsts/tripetal-tricolor.dst");
 	}
 
     /**
